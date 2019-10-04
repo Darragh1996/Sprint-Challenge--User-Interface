@@ -289,3 +289,13 @@ footer nav a {
 .middle-content .box:last-child {
   background: dodgerblue;
 }
+
+.main-content .about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-content .about section {
+    width: 40%;
+}
