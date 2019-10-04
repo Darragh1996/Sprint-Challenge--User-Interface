@@ -290,12 +290,31 @@ footer nav a {
   background: dodgerblue;
 }
 
-.main-content .about {
+div .about {
+    /* border: 5px solid black; */
     display: flex;
     justify-content: space-between;
+    /* padding: */
     flex-wrap: wrap;
+    /* background: red; */
+    border-bottom: 1px dashed black;
 }
 
-.main-content .about section {
-    width: 40%;
+.about section {
+    display: flex;
+    /* content:40%; */
+    /* flex-basis: 100px; */
+    width: 48%;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: canter;
+    color: black;
+    border-radius: 10px;
+    margin-right: 70%;
 }
