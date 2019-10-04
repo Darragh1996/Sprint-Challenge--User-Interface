@@ -184,6 +184,10 @@ p {
   border-bottom: 1px dashed black;
 }
 
+.top-content .about {
+    display: flex;
+}
+
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
@@ -297,7 +301,7 @@ div .about {
     /* padding: */
     flex-wrap: wrap;
     /* background: red; */
-    border-bottom: 1px dashed black;
+    margin-bottom: 5%;
 }
 
 .about section {
@@ -307,6 +311,8 @@ div .about {
     width: 48%;
     flex-direction: column;
     margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .button {
@@ -317,4 +323,9 @@ div .about {
     color: black;
     border-radius: 10px;
     margin-right: 70%;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
 }
